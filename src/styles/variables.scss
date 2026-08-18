@@ -1,0 +1,49 @@
+// 设计令牌：颜色、间距、圆角、字号
+
+// 主色（沉稳的青绿色，传达健康感）
+$color-primary: #2a8d7f;
+$color-primary-light: #4fb3a5;
+$color-primary-dark: #1e6e63;
+
+// 中性色
+$color-bg: #f6f7f9;
+$color-surface: #ffffff;
+$color-border: #e6e8ec;
+
+// 文字
+$color-text-strong: #1a1d22;
+$color-text: #2c3038;
+$color-text-muted: #6b7280;
+$color-text-faint: #9ca3af;
+
+// 语义色
+$color-success: #2eb872;
+$color-warning: #e09f3e;
+$color-danger: #d4584a;
+
+// 风险等级
+$color-risk-low: $color-success;
+$color-risk-mid: $color-warning;
+$color-risk-high: $color-danger;
+
+// 圆角
+$radius-sm: 8rpx;
+$radius-md: 16rpx;
+$radius-lg: 24rpx;
+$radius-xl: 32rpx;
+
+// 间距
+$space-xs: 8rpx;
+$space-sm: 16rpx;
+$space-md: 24rpx;
+$space-lg: 32rpx;
+$space-xl: 48rpx;
+$space-2xl: 64rpx;
+
+// 阴影
+$shadow-sm: 0 2rpx 8rpx rgba(20, 30, 50, 0.04);
+$shadow-md: 0 8rpx 24rpx rgba(20, 30, 50, 0.06);
+$shadow-lg: 0 16rpx 48rpx rgba(20, 30, 50, 0.08);
+
+// 内容区最大宽度（在大屏上居中）
+$container-max-width: 720rpx;

@@ -1,0 +1,51 @@
+{
+  "name": "cmo-health",
+  "version": "0.1.0",
+  "description": "首席代谢官 — 纯前端个人代谢健康自评估。无需后端、无需数据库，数据仅存本机，支持 JSON 导入导出。",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "author": "常来常往工作室 <51kang4@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterway202410/cmo-health.git"
+  },
+  "homepage": "https://peterway202410.github.io/cmo-health/",
+  "bugs": {
+    "url": "https://github.com/peterway202410/cmo-health/issues"
+  },
+  "scripts": {
+    "dev:h5": "uni",
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "dev:app": "uni -p app",
+    "build:h5": "uni build",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "build:app": "uni build -p app",
+    "type-check": "vue-tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-4030620241128001",
+    "@dcloudio/uni-app-harmony": "3.0.0-4030620241128001",
+    "@dcloudio/uni-app-plus": "3.0.0-4030620241128001",
+    "@dcloudio/uni-components": "3.0.0-4030620241128001",
+    "@dcloudio/uni-h5": "3.0.0-4030620241128001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-4030620241128001",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.8",
+    "@dcloudio/uni-cli-shared": "3.0.0-4030620241128001",
+    "@dcloudio/uni-stacktracey": "3.0.0-4030620241128001",
+    "@dcloudio/vite-plugin-uni": "3.0.0-4030620241128001",
+    "@types/node": "^20.11.30",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/runtime-core": "^3.4.21",
+    "@vue/shared": "^3.4.21",
+    "sass": "^1.71.1",
+    "typescript": "^5.4.3",
+    "vite": "5.2.8",
+    "vitest": "^1.4.0",
+    "vue-tsc": "^2.0.6"
+  }
+}

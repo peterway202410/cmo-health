@@ -1,0 +1,37 @@
+{
+  "name": "首席代谢官",
+  "appid": "__UNI__CMO0001",
+  "description": "个人代谢健康自评估应用",
+  "versionName": "0.1.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    }
+  },
+  "h5": {
+    "title": "首席代谢官",
+    "router": {
+      "mode": "hash",
+      "base": "./"
+    },
+    "publicPath": "./"
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "minified": true
+    },
+    "usingComponents": true
+  },
+  "vueVersion": "3"
+}

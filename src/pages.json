@@ -1,0 +1,126 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/welcome/welcome",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "首席代谢官"
+      }
+    },
+    {
+      "path": "pages/records/records",
+      "style": {
+        "navigationBarTitleText": "记录"
+      }
+    },
+    {
+      "path": "pages/records/weight/weight",
+      "style": {
+        "navigationBarTitleText": "体重"
+      }
+    },
+    {
+      "path": "pages/records/bp/bp",
+      "style": {
+        "navigationBarTitleText": "血压"
+      }
+    },
+    {
+      "path": "pages/records/glucose/glucose",
+      "style": {
+        "navigationBarTitleText": "血糖"
+      }
+    },
+    {
+      "path": "pages/records/lipid/lipid",
+      "style": {
+        "navigationBarTitleText": "血脂"
+      }
+    },
+    {
+      "path": "pages/records/uric/uric",
+      "style": {
+        "navigationBarTitleText": "尿酸"
+      }
+    },
+    {
+      "path": "pages/records/questionnaire/questionnaire",
+      "style": {
+        "navigationBarTitleText": "生活方式问卷"
+      }
+    },
+    {
+      "path": "pages/analysis/analysis",
+      "style": {
+        "navigationBarTitleText": "评估"
+      }
+    },
+    {
+      "path": "pages/analysis/weight/weight",
+      "style": {
+        "navigationBarTitleText": "体重评估"
+      }
+    },
+    {
+      "path": "pages/analysis/bp/bp",
+      "style": {
+        "navigationBarTitleText": "血压评估"
+      }
+    },
+    {
+      "path": "pages/analysis/glucose/glucose",
+      "style": {
+        "navigationBarTitleText": "血糖评估"
+      }
+    },
+    {
+      "path": "pages/analysis/lipid/lipid",
+      "style": {
+        "navigationBarTitleText": "血脂评估"
+      }
+    },
+    {
+      "path": "pages/analysis/uric/uric",
+      "style": {
+        "navigationBarTitleText": "尿酸评估"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/about/about",
+      "style": {
+        "navigationBarTitleText": "关于"
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationBarTitleText": "基础档案"
+      }
+    },
+    {
+      "path": "pages/settings/thresholds/thresholds",
+      "style": {
+        "navigationBarTitleText": "参考值设置"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首席代谢官",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f6f7f9"
+  }
+}

@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+page {
+  background-color: $color-bg;
+  color: $color-text;
+  font-size: 28rpx;
+  line-height: 1.55;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'PingFang SC',
+    'Helvetica Neue',
+    Helvetica,
+    'Microsoft YaHei',
+    sans-serif;
+}
+
+view,
+text {
+  box-sizing: border-box;
+}
