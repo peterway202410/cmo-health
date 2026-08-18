@@ -5,15 +5,9 @@
 **不需要后端，不需要数据库，不需要账号。**  
 血压、血糖、血脂、尿酸、体重等数据只存在你自己的设备上，并可随时导出 / 导入 JSON 备份。
 
-[English](#chief-metabolic-officer) · [在线 Demo](https://peterway202410.github.io/cmo-health/) · [备份格式](./docs/backup.md) · [更新记录](./CHANGELOG.md)
+[在线 Demo](https://peterway202410.github.io/cmo-health/)
 
 > 本应用仅供个人代谢健康参考，不构成医疗诊断、治疗或用药建议。
-
-<p>
-  <img src="docs/screenshots/welcome.png" width="240" alt="欢迎页" />
-  <img src="docs/screenshots/home.png" width="240" alt="首页" />
-  <img src="docs/screenshots/my.png" width="240" alt="我的：导入导出" />
-</p>
 
 ## 为什么开源
 
@@ -87,20 +81,7 @@ npx --yes serve dist/build/h5
 H5 对应浏览器 localStorage；小程序对应微信本地缓存。  
 应用本身不发起任何上传健康数据的网络请求。
 
-备份文件是一份带 `schemaVersion` 的 JSON，可在「我的 → 导出数据 / 导入数据」里操作。字段说明见 [docs/backup.md](./docs/backup.md)。
-
-## 项目结构
-
-```
-src/
-  pages/          页面：欢迎、首页、记录、评估、我的、档案
-  domain/         评估与建议算法（与 UI 解耦）
-  infra/storage/  本地存储
-  infra/backup/   JSON 导入导出
-  stores/         Pinia
-```
-
-更细的产品说明见 `需求说明.txt`，算法说明见 `评估算法文档.md`。
+备份文件是一份带 `schemaVersion` 的 JSON，可在「我的 → 导出数据 / 导入数据」里操作。
 
 ## 免责声明
 
@@ -111,40 +92,6 @@ src/
 H5 静态页（无后端，数据只存在你的浏览器里）：
 
 https://peterway202410.github.io/cmo-health/
-
-## 开发与测试
-
-```bash
-npm test
-```
-
-评估算法和备份导入导出有单元测试，见 `tests/`。提交 PR 时 GitHub Actions 会再跑一遍。
-
-参与方式见 [CONTRIBUTING.md](./CONTRIBUTING.md)。安全问题请按 [SECURITY.md](./SECURITY.md) 私下报告，不要公开提 Issue。
-
----
-
-## Chief Metabolic Officer
-
-A local-first metabolic health tracker. **No backend, no database, no account.** Blood pressure, glucose, lipids, uric acid and weight stay on the device. You can export and import a JSON backup at any time.
-
-Live demo (static GitHub Pages, data stays in *your* browser): https://peterway202410.github.io/cmo-health/
-
-This is a personal reference tool, not medical advice.
-
-### Stack
-
-uni-app 3 + Vue 3 + TypeScript + Pinia. Scoring lives in `src/domain/` as pure functions. Storage is `src/infra/storage/`. Backup is `src/infra/backup/`.
-
-```bash
-npm install
-npm run dev:h5
-npm test
-```
-
-License: [GNU GPL v3](./LICENSE).
-
----
 
 ## 开源协议
 

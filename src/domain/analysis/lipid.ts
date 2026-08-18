@@ -1,4 +1,4 @@
-// 血脂评估算法（纯函数）。详见「评估算法文档.md 四、血脂评估」。
+// 血脂评估算法（纯函数）。
 
 import type { LipidRecord } from '@/infra/storage/schema';
 

@@ -1,4 +1,4 @@
-// 血糖评估算法（纯函数）。详见「评估算法文档.md 三、血糖评估」。
+// 血糖评估算法（纯函数）。
 
 import type { GlucoseRecord } from '@/infra/storage/schema';
 

@@ -1,5 +1,0 @@
-blank_issues_enabled: true
-contact_links:
-  - name: 安全问题
-    url: https://github.com/peterway202410/cmo-health/blob/main/SECURITY.md
-    about: 请不要公开提安全漏洞，按 SECURITY.md 发邮件。

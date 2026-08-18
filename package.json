@@ -20,8 +20,7 @@
     "build:h5": "uni build",
     "build:mp-weixin": "uni build -p mp-weixin",
     "build:app": "uni build -p app",
-    "type-check": "vue-tsc --noEmit",
-    "test": "vitest run"
+    "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-4030620241128001",
@@ -45,7 +44,6 @@
     "sass": "^1.71.1",
     "typescript": "^5.4.3",
     "vite": "5.2.8",
-    "vitest": "^1.4.0",
     "vue-tsc": "^2.0.6"
   }
 }

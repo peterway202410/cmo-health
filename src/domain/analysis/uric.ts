@@ -1,4 +1,4 @@
-// 尿酸评估算法（纯函数）。详见「评估算法文档.md 五、尿酸评估」。
+// 尿酸评估算法（纯函数）。
 
 import type { Gender, UricRecord } from '@/infra/storage/schema';
 

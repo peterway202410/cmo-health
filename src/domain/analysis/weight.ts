@@ -1,4 +1,4 @@
-// 体重评估算法（纯函数）。详见「评估算法文档.md 一、体重评估」。
+// 体重评估算法（纯函数）。
 
 import type { Gender, WeightRecord } from '@/infra/storage/schema';
 import { ageFromBirth } from '@/utils/date';

@@ -1,4 +1,4 @@
-// 血压评估算法（纯函数）。详见「评估算法文档.md 二、血压评估」。
+// 血压评估算法（纯函数）。
 
 import type { BPRecord } from '@/infra/storage/schema';
 

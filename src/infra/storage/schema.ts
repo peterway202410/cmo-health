@@ -1,4 +1,4 @@
-// 数据 Schema 定义。详见 .kiro/specs/chief-metabolic-officer/design.md「Data Models」。
+// 数据 Schema 定义。
 
 export const SCHEMA_VERSION = 1 as const;
 
