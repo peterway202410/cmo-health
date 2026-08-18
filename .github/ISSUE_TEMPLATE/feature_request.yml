@@ -1,0 +1,27 @@
+name: 功能建议
+description: 新指标、新评估规则、交互改进等
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决什么问题
+      placeholder: 现在用的时候卡在哪一步，或缺了哪类记录。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议怎么做
+    validations:
+      required: true
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: 请确认
+      options:
+        - label: 这个功能不需要后端或把健康数据上传到服务器
+          required: true
+        - label: 文案不会被理解成医疗诊断或用药建议
+          required: true
